@@ -15,4 +15,6 @@ def generate_strong_password(length):
     password = ''.join(secrets.choice(characters) for _ in range(length))
     return password
 
+if __name__ == "__main__":
+    strong_password()
 
